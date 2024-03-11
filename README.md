@@ -44,7 +44,7 @@ cat $HOME/priv_validator_key.json
 tmkms softsign import $HOME/priv_validator_key.json $HOME/tmkms/sge/secrets/sge-consensus.key
 sudo shred -uvz $HOME/priv_validator_key.json
 ```
-- Swap tmkms.toml to the one below. The only "addr =" field edit need to be done, replace it with your validator node IP + port(26658 default)
+- Swap tmkms.toml to the one below. The only `"addr ="` field edit need to be done, replace it with your validator node `IP + port(26658 default)`
 
 ```python
 rm -rf ~/tmkms/sge/tmkms.toml
