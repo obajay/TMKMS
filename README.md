@@ -121,7 +121,7 @@ ufw status
 And make sure on the `tmkms` server that the logs are now correct
 ![logs](https://github.com/obajay/TMKMS/assets/44331529/7ff16c90-5d01-4c4a-a2ef-4e558c939042)
 
-- Let's delete (after saving the file in a safe place) `priv_validator_key.json` from the validator node and reboot again. **Everything should work**
+- Let's delete (after saving the file in a safe place) `priv_validator_key.json` from the validator node and restart again. **Everything should work**
 
 <h1 align="center"> 📚Useful commands📚 </h1>
 
