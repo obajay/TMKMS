@@ -1,3 +1,5 @@
+![securiy](https://github.com/obajay/TMKMS/assets/44331529/adeec44c-45e0-4072-8ce4-e74d2aa183a8)
+
 <h1 align="center"> TMKMS</h1>
 
 - The Tendermint Key Management System (or TMKMS) should be used by any validator currently or intending to be in the active validator set. This application mitigates the risk of double-signing and provides high-availability to validator keys while keeping these keys on a separate physical host. While TMKMS can be used on the same machine as the validator, it is recommended to be on a separate host.
