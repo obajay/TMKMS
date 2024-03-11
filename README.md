@@ -37,7 +37,8 @@ tmkms init $HOME/tmkms/sge
 ```
 
 ## Import Private key
-- upload your active priv_validator_key.json from your validator to directory `/home/tmkms/priv_validator_key.json`
+- upload your active priv_validator_key.json from your validator to directory
+`/home/tmkms/priv_validator_key.json`
 ```python
 cat $HOME/priv_validator_key.json
 tmkms softsign import $HOME/priv_validator_key.json $HOME/tmkms/sge/secrets/sge-consensus.key
