@@ -97,7 +97,7 @@ sudo journalctl -u tmkmsd-sge.service -f -o cat
 ![error](https://github.com/obajay/TMKMS/assets/44331529/03292c8c-5929-41dd-949b-c32a30cfe122)
 
 
-## Now we need  go to our server (where is your validator located) and find field priv_validator_laddr = "" at dir $HOME/.sge/config/config.toml and edit to your Validator IP + port
+- Now we need  go to our server (where is your validator located) and find field `priv_validator_laddr = ""` at dir `$HOME/.sge/config/config.toml` and edit to your Validator `IP + port`
 - Example : `priv_validator_laddr = "tcp://0.0.0.0:26658"`
 
 <details>
