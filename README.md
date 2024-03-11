@@ -109,9 +109,8 @@ apt install ufw
 ufw allow 22
 ufw allow 80
 ufw allow 443
-ufw deny 26658
-#ufw allow from <ip tmkmsserver>
-ufw allow from 55.19.14.470
+ufw deny 26658 #deny access to this port
+ufw allow from 55.19.14.470 #We allow access to our TMKMS server (specify your IP)
 ufw enable
 ufw status
 ```
